@@ -37,12 +37,15 @@ liste = liste[::-1]
 
 
 liste= [12,16,12,20,18]
- #son elemanı sil.
+
+#son elemanı sil.
  
 liste.pop(-1)
+
 #12 elemanını sil.
 
 liste.remove(12) 
+
 #liste içerisinde kaç adet 12 var?
 
 print(liste.count(12)) 
