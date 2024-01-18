@@ -8,11 +8,15 @@ print(liste[0])
 print(liste[3])
 
 #mazda'yı toyota ile değiştir.
+
 liste = [liste[0], liste[1] , liste[2] , 'toyota']
-ya da
+
+#ya da
+
 liste[-1] = 'toyota'
 
 #listenin içinde 'mercedes' var mı?
+
 result = 'mercedes' in liste
 print(result)
 
