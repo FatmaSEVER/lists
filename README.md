@@ -37,6 +37,12 @@ liste = liste[::-1]
 
 
 liste= [12,16,12,20,18]
-liste.pop(-1)      # son elemanı sil.
-liste.remove(12) # 12 elemanını sil. 
-print(liste.count(12)) #liste içerisinde kaç adet 12 var?
+ #son elemanı sil.
+ 
+liste.pop(-1)
+#12 elemanını sil.
+
+liste.remove(12) 
+#liste içerisinde kaç adet 12 var?
+
+print(liste.count(12)) 
